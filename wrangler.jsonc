@@ -1,0 +1,9 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "shifa-medical-clinic",
+  "compatibility_date": "2025-06-11",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}
