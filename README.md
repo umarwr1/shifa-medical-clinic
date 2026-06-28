@@ -1,6 +1,6 @@
-# Shifa Medical Clinic — Website (previous-style replica)
+# Dundas Medical Center — Website (previous-style replica)
 
-A self-contained static recreation of the previous Shifa Medical Clinic website,
+A self-contained static recreation of the previous Dundas Medical Center website,
 based on the reference screenshots. This folder is completely separate from the
 existing project and does not affect it.
 

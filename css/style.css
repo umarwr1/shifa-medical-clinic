@@ -80,6 +80,15 @@ h1, h2, h3, h4 { font-family: "Baloo 2", "Poppins", sans-serif; font-weight: 700
 /* Brand / logo */
 .brand { display: flex; align-items: center; gap: 10px; }
 .brand .logo-mark { width: 46px; height: 46px; flex-shrink: 0; }
+.brand-logo { height: 64px; width: auto; display: block; }
+.logo-badge {
+  display: inline-flex;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+}
+.logo-badge img { height: 92px; width: auto; display: block; }
 .brand .logo-text { line-height: 1; }
 .brand .logo-text .shifa {
   font-family: "Playfair Display", Georgia, serif;
@@ -705,6 +714,8 @@ h1, h2, h3, h4 { font-family: "Baloo 2", "Poppins", sans-serif; font-weight: 700
   .nav a { padding: 12px 0; width: 100%; border-bottom: 1px solid #f0f0f0; }
   .nav-toggle { display: block; }
   .header .btn-appoint { display: none; }
+  .brand-logo { height: 50px; }
+  .logo-badge img { height: 76px; }
   .sticky-nav { display: none; }
 
   .why-grid, .svc-grid, .svc-page-grid, .blog-grid,
